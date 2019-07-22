@@ -1,0 +1,209 @@
+.header {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.cartWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.addBtn {
+  padding: 8px 10px !important;
+  font-size: 16px !important;
+  font-weight: lighter !important;
+  margin-bottom: 15px;
+  border-radius: 10px !important;
+}
+
+.cartCard {
+  padding: 25px ;
+  width: 520px;
+  background: #fff;
+  filter: drop-shadow(0px 2px 20px rgba(0, 0, 0, 0.08));
+
+  h4 {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 24px;
+    color: #000;
+  }
+
+  p {
+    font-family: Montserrat;
+    font-weight: normal;
+    font-size: 16px;
+    text-align: left;
+    color: #000;
+    opacity: 0.8;
+
+  }
+
+  &Money {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &Wrap {
+    display: flex;
+  }
+
+  &Img {
+    img {
+      width: 200px;
+      height: 200px;
+    }
+  }
+}
+
+.cartCardFullBtn {
+  width: 79px;
+  height: 29px;
+  border-radius: 2px;
+  background: #000;
+  color: #FFFFFF;
+  box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+.cartCardEdit {
+  display: flex;
+  justify-content: space-between;
+}
+
+.editBtn {
+  width: 156px;
+  height: 38px;
+  border-radius: 22px;
+  background: #fff;
+  box-shadow: 1px 2px 12px rgba(0, 0, 0, 0.16);
+  border: transparent;
+}
+
+.incrementBody {
+  font-size: 21px;
+  width: 70px;
+  height: 31px;
+  border-radius: 50px;
+  color: #FFFFFF;
+  background: #1d1d1d;
+}
+
+.incrementBtn {
+  width: 30px;
+  height: 31px;
+  background: transparent;
+  color: #FFFFFF;
+  border: 80px;
+}
+
+
+// drink card
+.drinkCard {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.06);
+
+  p {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+}
+
+.drinkCardFooter {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  color: #000;
+  opacity: 0.87;
+}
+
+// drink
+
+.drink {
+  margin-left: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.drinkRow {
+  display: flex;
+  justify-content: space-between;
+}
+
+.deliveryBox {
+  width: 682px;
+  height: 96px;
+  background: #fff;
+  filter: drop-shadow(0px 2px 16px rgba(0, 0, 0, 0.1));
+  border-radius: 10px;
+  margin-top: 20px;
+
+  h4 {
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: left;
+    color: #67023f;
+    margin: 0;
+    padding: 8px;
+  }
+
+  p {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    color: #0b0b0b;
+    opacity: 0.87;
+    margin: 0;
+    padding: 5px;
+  }
+}
+
+.coupon {
+  background-color: #FFFFFF;
+  width: 682px;
+  box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.06);
+
+  display: flex;
+  flex-direction: column;
+}
+
+.couponHeader {
+  width: 682px;
+  height: 48px;
+  background: #67023f;
+
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: left;
+  color: #fff;
+  padding: 12px;
+
+}
+
+.couponBtn {
+  width: 682px;
+  height: 64px;
+  border-radius: 4px;
+  background: #67023f;
+  box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.25);
+
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 28px;
+  text-align: center;
+  color: #fff;
+
+}

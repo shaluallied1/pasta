@@ -1,0 +1,140 @@
+.background {
+  background-color: #FFE195;
+  width: 100vw;
+  height: 100vh;
+}
+
+.sideImage {
+  bottom: 0;
+  //position: absolute;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bowl {
+  &One {
+    position: relative;
+    left: 20px;
+    top: 90px;
+
+    img {
+      width: 50%;
+      height: 50%;
+    }
+  }
+
+  &Two {
+    position: relative;
+    left: 20px;
+    top: 40px;
+
+    img {
+      width: 60%;
+      height: 60%;
+    }
+  }
+}
+
+
+.selectSection {
+  display: flex;
+  text-align: center;
+  flex-basis: 40%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.bottomButton {
+  display: flex;
+  justify-content: space-around;
+}
+
+.ml20 {
+  margin-left: 20px;
+}
+
+.sauce {
+  &Bowl {
+    position: absolute;
+    left: 100px;
+    top: 110px;
+  }
+
+  &One {
+    position: absolute;
+    left: 350px;
+    width: 10px;
+    top: 0px;
+  }
+
+  &Two {
+    position: absolute;
+    left: 490px;
+    top: 90px;
+  }
+
+  &Three {
+    position: absolute;
+    left: 530px;
+    top: 250px;
+  }
+
+  &Four {
+    position: absolute;
+    left: 490px;
+    bottom: 100px;
+  }
+
+  &Five {
+    position: absolute;
+    left: 350px;
+    bottom: 50px;
+  }
+}
+
+.detailCard {
+  text-align: left;
+  background-color: #FFFFFF;
+  width: 300px;
+  height: 300px;
+
+  padding: 20px 15px 0 5px;
+
+  ul {
+    li {
+      list-style: none;
+    }
+  }
+}
+
+.insideCard {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  ul {
+    li {
+      list-style: none;
+    }
+  }
+}
+
+.sideSection {
+  padding-top: 100px;
+}
+.sidesCard {
+  width: 340px;
+  height: 160px;
+  background: #e6d7b1;
+
+  display: flex;
+  align-items: center;
+}
+
+
+
+

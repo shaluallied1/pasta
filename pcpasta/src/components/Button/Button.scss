@@ -1,0 +1,28 @@
+.button {
+  border: transparent;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 800;
+  padding: 20px 50px;
+  text-align: center;
+  text-transform: capitalize;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.outline {
+  background-color: #fff;
+  color: #67023F;
+}
+
+.primary {
+  background-color: #67023F;
+  border-color: #67023F;
+  color: #fff;
+  padding: 20px 70px;
+
+}
+
